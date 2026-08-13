@@ -1,0 +1,24 @@
+Column Name,Description
+index,Row index of the dataset
+trans_date_trans_time,Date and time of the transaction
+cc_num,Credit card number used for the transaction (masked or encrypted)
+merchant,Name of the merchant where the transaction occurred
+category,Category or type of merchant
+amt,Transaction amount in USD
+first,Name of the cardholder
+last,Last name of the cardholder
+gender,Gender of the cardholder
+street,Street address of the cardholder
+city,City of residence
+state,State of residence
+zip,Zip code of the cardholder’s address
+lat,Latitude coordinate of the location
+long,Longitude coordinate of the location
+city_pop,Population of the city
+job,Occupation of the cardholder
+dob,Date of birth of the cardholder
+trans_num,Unique identifier for the transaction
+unix_time,Unix timestamp of the transaction
+merch_lat,Latitude coordinate of the merchant location
+merch_long,Longitude coordinate of the merchant location
+is_fraud,Indicates whether the transaction is fraudulent (1) or not (0)
